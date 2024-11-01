@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Input a = 01000000000000000000000000000000, Input b = 01000000000000000000000000000000
+Multiplication Result (Binary) = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Multiplication Result (Decimal) = -nan
+$finish called at time : 200 ns : File "C:/Users/lasit/DSD_ALU/DSD_ALU.srcs/sim_1/new/test_FP_ALU.v" Line 52

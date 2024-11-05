@@ -1,2 +1,0 @@
-Breakpoint File Version 1.0
-60,true,"C:/Users/lasit/DSD_ALU/DSD_ALU.srcs/sources_1/new/fp_mul.v"

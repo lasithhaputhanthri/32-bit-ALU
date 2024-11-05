@@ -1,0 +1,19 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_fp_arithmetic_unit_behav xil_defaultlib.tb_fp_arithmetic_unit xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/lasit/FP_ALU/FP_ALU.srcs/sources_1/new/ALU.sv" Line 1. Module fp_arithmetic_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/lasit/FP_ALU/FP_ALU.srcs/sources_1/new/ALU.sv" Line 1. Module fp_arithmetic_unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fp_adder
+Compiling module xil_defaultlib.fp_subtractor
+Compiling module xil_defaultlib.fp_multiplier
+Compiling module xil_defaultlib.fp_arithmetic_unit
+Compiling module xil_defaultlib.tb_fp_arithmetic_unit
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fp_arithmetic_unit_behav

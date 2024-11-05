@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../FP_ALU.srcs/sources_1/new/ALU.sv" \
+"../../../../FP_ALU.srcs/sources_1/new/Multipliyer.sv" \
+"../../../../FP_ALU.srcs/sources_1/new/Sub.sv" \
+"../../../../FP_ALU.srcs/sources_1/new/fp_adder.sv" \
+"../../../../FP_ALU.srcs/sim_1/new/ALU_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
